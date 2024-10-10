@@ -21,7 +21,7 @@ class SoftwareSkill extends React.Component {
                   key={logo.skillName}
                   placement={"top"}
                   overlay={
-                    <Tooltip id={`tooltip-top`}>
+                    <Tooltip id={`tooltip-top`} style={{marginBottom: 5}}>
                       <strong>{logo.skillName}</strong>
                     </Tooltip>
                   }

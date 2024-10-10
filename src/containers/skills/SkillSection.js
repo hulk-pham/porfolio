@@ -15,7 +15,12 @@ function GetSkillSvg(props) {
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  return <img
+    className="logo_img"
+    src={require(`../../assets/images/blockchain.svg`)}
+    alt={'blockchain'}
+    style={{ width: "100%" , height: "auto", borderRadius: "10px" }}
+  />;
 }
 
 class SkillSection extends Component {

@@ -9,10 +9,12 @@
 
 .contact-heading-div {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .blog-heading-div {
   display: flex;
+  margin-bottom: 100px;
 }
 
 .address-heading-div {

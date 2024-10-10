@@ -1,5 +1,6 @@
 /* Change this file to get your personal Porfolio */
 
+// https://icon-sets.iconify.design/?query=openai
 // Website related settings
 const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
@@ -21,9 +22,9 @@ const seo = {
 const greeting = {
   title: "Hulk Pham",
   logo_name: "Hulk Pham",
-  nickname: "Pham Tan Hung",
+  nickname: "",
   subTitle:
-    "Senior Fullstack Developer and Data Scientist, who loves to explore new technologies and leverage them to solve real-life problems.",
+    "Senior Fullstack Developer, Cloud DevOps and AI/ML Engineer",
   resumeLink:
     "https://www.topcv.vn/xem-cv/WVAMVVsOVgtQVFEEVFZSXAwDVgMFVAcLDQoDVg82a5",
   portfolio_repository: "https://github.com/hulk-pham",
@@ -66,12 +67,139 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive website front end using React-Redux, Next.js, Vue.js",
+        "⚡ Creating application backend in Node.js, Python, PHP, Java Spring, .Net Core",
+        "⚡ Developing cross-flatform mobile applications using Flutter, React Native",
+        "⚡ Familiar with CI/CD, Cloud Computing and Microservices",
+        "⚡ Experience with SQL and NoSQL databases",
+      ],
+      softwareSkills: [
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "Typescript",
+          fontAwesomeClassname: "logos:typescript-icon",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "NestJS",
+          fontAwesomeClassname: "devicon:nestjs",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "logos:nextjs-icon",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "VueJS",
+          fontAwesomeClassname: "devicon:vuejs-wordmark",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Golang",
+          fontAwesomeClassname: "skill-icons:golang",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Java Spring Boot",
+          fontAwesomeClassname: "devicon:spring",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "DotNet Core",
+          fontAwesomeClassname: "skill-icons:dotnet",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "Laravel Framework",
+          fontAwesomeClassname: "devicon:laravel",
+          style: {
+            color: "#663399",
+          },
+        },
+        {
+          skillName: "Python Flask",
+          fontAwesomeClassname: "logos:flask",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "devicon-plain:graphql-wordmark",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "PostgesQL",
+          fontAwesomeClassname: "devicon:postgresql-wordmark",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "devicon:mongodb-wordmark",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "devicon:redis",
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "React Native",
+          fontAwesomeClassname: "tabler:brand-react-native",
+          style: {
+            color: "black",
+          },
+        },
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "simple-icons:flutter",
+          style: {
+            color: "#02569B",
+          },
+        },
+      ],
+    },
+    {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Experience with LLM, Langchain, Huggingface, OpenAI, etc.",
+        "⚡ Experience with Pandas, Numpy, Scikit-learn",
       ],
       softwareSkills: [
         {
@@ -90,13 +218,6 @@ const skills = {
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
@@ -105,103 +226,55 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Langchain",
+          fontAwesomeClassname: "simple-icons:langchain",
           style: {
-            color: "#E34F26",
+            backgroundColor: "transparent",
+            color: "black",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Hugging Face",
+          fontAwesomeClassname: "simple-icons:huggingface",
           style: {
-            color: "#1572B6",
+            backgroundColor: "transparent",
+            color: "#f7a704",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "OpenAI",
+          fontAwesomeClassname: "simple-icons:openai",
           style: {
-            color: "#CC6699",
+            backgroundColor: "transparent",
+            color: "black",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Pandas",
+          fontAwesomeClassname: "devicon:pandas-wordmark",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            backgroundColor: "transparent",
+            color: "black",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Architect & DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Building on-premise and cloud infrastructure for deploying applications",
+        "⚡ Experience working on multiple cloud platforms such as GCP, AWS, Azure, Firebase",
+        "⚡ Containerization of applications using Docker, Kubernetes and Jenkins for CI/CD",
       ],
       softwareSkills: [
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "flat-color-icons:linux",
+          style: {
+            color: "#4285F4",
+          },
+        },
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
@@ -225,23 +298,9 @@ const skills = {
         },
         {
           skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          fontAwesomeClassname: "vscode-icons:file-type-light-firebasehosting",
           style: {
             color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -258,43 +317,58 @@ const skills = {
             color: "#326CE5",
           },
         },
+        {
+          skillName: "Jenkins",
+          fontAwesomeClassname: "logos:jenkins",
+          style: {
+            color: "#326CE5",
+          },
+        },
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Blockchain Developer",
       fileName: "DesignImg",
+      filePath: "blockchain.png",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Experience with Ethereum, Solidity and Smart Contracts",
+        "⚡ Developing DApps using Web3.js, ether.js and Hardhat",
+        "⚡ Experience with Ganache for local blockchain development",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Ethereum",
+          fontAwesomeClassname: "logos:ethereum-color",
           style: {
-            color: "#FF2BC2",
+            color: "#3C3C3D",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
           style: {
-            color: "#F24E1E",
+            color: "#363636",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Web3.js",
+          fontAwesomeClassname: "simple-icons:web3dotjs",
           style: {
-            color: "#FF7C00",
+            color: "#363636",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "Hardhat",
+          fontAwesomeClassname: "devicon:hardhat",
           style: {
-            color: "#000000",
+            color: "#363636",
+          },
+        },
+        {
+          skillName: "Ganache",
+          fontAwesomeClassname: "simple-icons:ganache",
+          style: {
+            color: "#363636",
           },
         },
       ],
@@ -705,7 +779,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "dev-image.jpeg",
+    profile_image_path: "dev-image.png",
     description: "Connect with me on LinkedIn, Twitter, GitHub and Gmail. I am always available for interesting conversations and new opportunities.",
   },
   blogSection: {
@@ -716,9 +790,9 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "An Cuu, Hue, Vietnam",
-    locality: "San Jose",
+    title: "Where am I?",
+    subtitle: "Hue, Vietnam - GMT +7",
+    locality: "Hue",
     country: "Viet Name",
     region: "Hue",
     postalCode: "50000",
