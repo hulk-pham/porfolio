@@ -44,12 +44,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "Gmail",
-  //   link: "mailto:tanhunghue@gmail.com",
-  //   fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-  //   backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  // },
+  {
+    name: "Gmail",
+    link: "mailto:tanhunghue@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
   {
     name: "X-Twitter",
     link: "https://x.com/HulkPhamDev",
