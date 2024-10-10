@@ -366,7 +366,7 @@ const skills = {
         },
         {
           skillName: "Ganache",
-          fontAwesomeClassname: "simple-icons:ganache",
+          fontAwesomeClassname: "logos:ganache",
           style: {
             color: "#363636",
           },
