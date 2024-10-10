@@ -40,16 +40,16 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/pham-tan-hung-7326a213a/",
+    link: "https://www.linkedin.com/in/hulk-pham",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "Gmail",
-    link: "mailto:tanhunghue@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
+  // {
+  //   name: "Gmail",
+  //   link: "mailto:tanhunghue@gmail.com",
+  //   fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+  //   backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  // },
   {
     name: "X-Twitter",
     link: "https://x.com/HulkPhamDev",
