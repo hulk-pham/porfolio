@@ -327,7 +327,7 @@ const skills = {
       ],
     },
     {
-      title: "Blockchain Developer",
+      title: "Blockchain & DApps",
       fileName: "DesignImg",
       filePath: "blockchain.png",
       skills: [
