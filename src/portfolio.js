@@ -471,12 +471,12 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "Deep Learning Introdution",
-      subtitle: "- Kaggle",
-      logo_path: "kaggle-logo.svg",
+      title: "Cloud Infrastructure Technologies",
+      subtitle: "- The Linux Foundation",
+      logo_path: "lf_logo.jpg",
       certificate_link:
-        "https://www.kaggle.com/learn/certification/hulkpham/intro-to-deep-learning",
-      alt_name: "deeplearning.ai",
+        "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/bcd0ea91-6557-4a1f-bd43-e46090025e70-hulk-pham-6b715ba1-c527-4d2f-8387-3667f6c5341a-certificate.pdf",
+      alt_name: "The Linux Foundation",
       color_code: "white",
     },
     {
@@ -487,15 +487,6 @@ const certifications = {
         "https://www.linkedin.com/learning/certificates/a34eb7aefe9131992d7929be8fb71fc1b7b6a3c08f8e9949b4cd7502f5620b3e?trk=share_certificate",
       alt_name: "OpenEDG",
       color_code: "#1F70C199",
-    },
-    {
-      title: "Cloud Infrastructure Technologies",
-      subtitle: "- The Linux Foundation",
-      logo_path: "lf_logo.jpg",
-      certificate_link:
-        "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/bcd0ea91-6557-4a1f-bd43-e46090025e70-hulk-pham-6b715ba1-c527-4d2f-8387-3667f6c5341a-certificate.pdf",
-      alt_name: "The Linux Foundation",
-      color_code: "white",
     },
     {
       title: "Graph Developer - Associate",
@@ -513,6 +504,15 @@ const certifications = {
       certificate_link:
         "https://learn.mongodb.com/c/7AuGc49SRJaxggMsO6Y-wQ",
       alt_name: "MongoDB",
+      color_code: "white",
+    },
+    {
+      title: "Deep Learning Introdution",
+      subtitle: "- Kaggle",
+      logo_path: "kaggle-logo.svg",
+      certificate_link:
+        "https://www.kaggle.com/learn/certification/hulkpham/intro-to-deep-learning",
+      alt_name: "deeplearning.ai",
       color_code: "white",
     },
     {
@@ -575,9 +575,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteering",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "Start from internship to Fullstack Developer, Team Leader and Tech Lead at STDIO.ASIA. I have +7 year experience worked with many technologies and tools to build scalable and sustainable products.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -585,87 +585,37 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Team Leader / CTO at STDIO.ASIA",
+          company: "STDIO.ASIA",
+          company_url: "https://stdio.asia/",
+          logo_path: "stdio_logo.png",
+          duration: "July 2019 - Dec 2020",
+          location: "Hue, Vietnam",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "As a Technical Lead and Manager, responsibilities include leading the team, designing system architectures, managing projects, and ensuring timely delivery. The role involves training the team, maintaining code quality, managing risks, and aligning technical solutions with business goals. Additionally, project proposals, documentation, and collaboration with stakeholders are key tasks.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Fullstack Developer at STDIO.ASIA",
+          company: "STDIO.ASIA",
+          company_url: "https://stdio.asia/",
+          logo_path: "stdio_logo.png",
+          duration: "July 2019 - Dec 2020",
+          location: "Hue, Vietnam",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-      ],
-    },
-    {
-      title: "Internships",
-      experiences: [
-        {
-          title: "Machine Learning Intern",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "May 2022 - Aug 2022",
-          location: "San Francisco, USA",
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "I have worked extensively on the development of web applications using a variety of technologies, such as Node.js, React.js, Vue.js, PHP, and React Native, to build dynamic and responsive user experiences. In addition to frontend and backend development, I have hands-on experience with cloud infrastructure and DevOps practices, ensuring scalable and reliable deployments. I have also developed microservices architectures and built serverless applications, leveraging cutting-edge technologies to deliver efficient, high-performance solutions tailored to business needs.",
           color: "#000000",
         },
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
+          title: "Web Intern at STDIO.ASIA",
+          company: "STDIO.ASIA",
+          company_url: "https://stdio.asia/",
+          logo_path: "stdio_logo.png",
+          duration: "December 2018 - June 2019",
+          location: "Hue, Vietnam",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
-          description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "Worked on the development of web applications using PHP, Node.js, Laravel, etc. Training and research on new technologies under the guidance of senior developers. Company also support many training courses for me.",
+          color: "#000000",
         },
       ],
     },
@@ -673,61 +623,60 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
+          title: "STDIO.ASIA Free Code Camp",
+          company: "STDIO.ASIA",
+          company_url: "https://stdio.asia/",
+          logo_path: "stdio_logo.png",
+          duration: "January 2019 - April 2020",
+          location: "Hue, Vietnam",
+          description: "I provide comprehensive training in JavaScript and React.js for students at Hue University of Science, with a strong emphasis on modern development practices. The training covers key topics such as Redux for state management, advanced JavaScript concepts, and ES6 features like arrow functions, destructuring, and modules. My goal is to equip students with the skills needed to build dynamic, scalable web applications using React.js, while also ensuring they have a solid understanding of JavaScript fundamentals and industry best practices. Through hands-on coding sessions, projects, and problem-solving exercises, students are prepared for real-world development challenges.",
           color: "#4285F4",
         },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
-        },
+        // {
+        //   title: "Microsoft Student Partner",
+        //   company: "Microsoft",
+        //   company_url: "https://www.microsoft.com/",
+        //   logo_path: "microsoft_logo.png",
+        //   duration: "Aug 2019 - May 2020",
+        //   location: "Hyderabad, Telangana",
+        //   description:
+        //     "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
+        //   color: "#D83B01",
+        // },
+        // {
+        //   title: "Mozilla Campus Captain",
+        //   company: "Mozilla",
+        //   company_url: "https://www.mozilla.org/",
+        //   logo_path: "mozilla_logo.png",
+        //   duration: "Oct 2019 - May 2020",
+        //   location: "Kurnool, Andhra Pradesh",
+        //   description:
+        //     "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+        //   color: "#000000",
+        // },
+        // {
+        //   title: "Developer Students Club Member",
+        //   company: "DSC IIITDM Kurnool",
+        //   company_url:
+        //     "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
+        //   logo_path: "dsc_logo.png",
+        //   duration: "Jan 2018 - May 2020",
+        //   location: "Kurnool, Andhra Pradesh",
+        //   description:
+        //     "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+        //   color: "#0C9D58",
+        // },
+        // {
+        //   title: "Developer Program Member",
+        //   company: "Github",
+        //   company_url: "https://github.com/",
+        //   logo_path: "github_logo.png",
+        //   duration: "July 2019 - PRESENT",
+        //   location: "Work From Home",
+        //   description:
+        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+        //   color: "#181717",
+        // },
       ],
     },
   ],
