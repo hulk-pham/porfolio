@@ -585,11 +585,11 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Team Leader / CTO at STDIO.ASIA",
+          title: "Technical Lead at STDIO.ASIA",
           company: "STDIO.ASIA",
           company_url: "https://stdio.asia/",
           logo_path: "stdio_logo.png",
-          duration: "July 2019 - Dec 2020",
+          duration: "January 2021 - Now",
           location: "Hue, Vietnam",
           description:
             "As a Technical Lead and Manager, responsibilities include leading the team, designing system architectures, managing projects, and ensuring timely delivery. The role involves training the team, maintaining code quality, managing risks, and aligning technical solutions with business goals. Additionally, project proposals, documentation, and collaboration with stakeholders are key tasks.",
