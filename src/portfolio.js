@@ -471,12 +471,12 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
-      title: "Cloud Infrastructure Technologies",
-      subtitle: "- The Linux Foundation",
-      logo_path: "lf_logo.jpg",
+      title: "DevOps Professional Certificate",
+      subtitle: "- PagerDuty",
+      logo_path: "pagerduty_logo.png",
       certificate_link:
-        "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/bcd0ea91-6557-4a1f-bd43-e46090025e70-hulk-pham-6b715ba1-c527-4d2f-8387-3667f6c5341a-certificate.pdf",
-      alt_name: "The Linux Foundation",
+        "https://www.linkedin.com/learning/certificates/de10fac1a50f58beb39074ae5799abee223ca7b8334ffd94924ade94f1e3dac0",
+      alt_name: "PagerDuty",
       color_code: "white",
     },
     {
@@ -489,6 +489,15 @@ const certifications = {
       color_code: "#1F70C199",
     },
     {
+      title: "Cloud Infrastructure Technologies",
+      subtitle: "- The Linux Foundation",
+      logo_path: "lf_logo.jpg",
+      certificate_link:
+        "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/bcd0ea91-6557-4a1f-bd43-e46090025e70-hulk-pham-6b715ba1-c527-4d2f-8387-3667f6c5341a-certificate.pdf",
+      alt_name: "The Linux Foundation",
+      color_code: "white",
+    },
+    {
       title: "Graph Developer - Associate",
       subtitle: "- Apollo GraphQL",
       logo_path: "apolo_logo.png",
@@ -496,15 +505,6 @@ const certifications = {
         "https://www.apollographql.com/tutorials/certifications/abadb9c2-6e72-4d8e-bb0d-d176bcaf91ca",
       alt_name: "Apollo GraphQL",
       color_code: "#D83B0199",
-    },
-    {
-      title: "MongoDB for SQL Experts",
-      subtitle: "- MongoDB",
-      logo_path: "mongodb-logo.png",
-      certificate_link:
-        "https://learn.mongodb.com/c/7AuGc49SRJaxggMsO6Y-wQ",
-      alt_name: "MongoDB",
-      color_code: "white",
     },
     {
       title: "Deep Learning Introdution",
@@ -525,14 +525,23 @@ const certifications = {
       color_code: "white",
     },
     {
-      title: "Building Systems with the ChatGPT API",
-      subtitle: "- Deeplearning.ai",
-      logo_path: "deep_learning_ai_logo.png",
+      title: "MongoDB for SQL Experts",
+      subtitle: "- MongoDB",
+      logo_path: "mongodb-logo.png",
       certificate_link:
-        "https://learn.deeplearning.ai/accomplishments/be21006c-3bcf-439e-9819-cba170bd5bb4?usp=sharing",
-      alt_name: "deeplearning.ai",
+        "https://learn.mongodb.com/c/7AuGc49SRJaxggMsO6Y-wQ",
+      alt_name: "MongoDB",
       color_code: "white",
     },
+    // {
+    //   title: "Building Systems with the ChatGPT API",
+    //   subtitle: "- Deeplearning.ai",
+    //   logo_path: "deep_learning_ai_logo.png",
+    //   certificate_link:
+    //     "https://learn.deeplearning.ai/accomplishments/be21006c-3bcf-439e-9819-cba170bd5bb4?usp=sharing",
+    //   alt_name: "deeplearning.ai",
+    //   color_code: "white",
+    // },
     // {
     //   title: "Fullstack Development",
     //   subtitle: "- Jogesh Muppala",
