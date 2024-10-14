@@ -8,7 +8,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Hulk's Portfolio",
+  title: "Hulk Pham - Fullstack Developer, Cloud DevOps and AI/ML Engineer",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
