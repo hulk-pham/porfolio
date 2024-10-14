@@ -28,6 +28,7 @@ class Contact extends Component {
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                   alt=""
+                  style={{width: "50%"}}
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -56,7 +57,7 @@ class Contact extends Component {
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
-            <div className="blog-heading-div">
+            <div className="blog-heading-div" style={{marginTop:200}}>
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
                   {blogSection["title"]}
@@ -86,7 +87,7 @@ class Contact extends Component {
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
-            <div className="address-heading-div">
+            <div className="address-heading-div" style={{marginTop:200}}>
               <div className="contact-heading-img-div">
                 {/* <img
 											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
@@ -121,9 +122,9 @@ class Contact extends Component {
                 </p>
                 <div className="address-btn-div">
                   <Button
-                    text="Visit on Google Maps"
+                    text="Email to me"
                     newTab={true}
-                    href={addressSection.location_map_link}
+                    href={addressSection.mail_to}
                     theme={theme}
                   />
                 </div>

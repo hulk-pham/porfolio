@@ -708,25 +708,18 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      id: "database-sharding",
+      name: "Database sharding",
+      createdAt: "2024-10-10T00:00:00Z",
+      description: "Database sharding is a method of splitting and storing a single logical dataset in multiple databases. Each shard is a horizontal partition of data in a database or search engine.",
+      url: "https://dev.to/hulk-pham/database-sharding-1382",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "mysql-optimize-tips",
+      name: "MySQL Optimize Tips",
+      createdAt: "2024-10-14T00:00:00Z",
+      description: "MySQL is one of the most popular relational database management systems. It is widely used in web applications and is an important part of the LAMP stack.",
+      url: "https://dev.to/hulk-pham/mysql-optimize-tips-4oic",
     },
   ],
 };
@@ -754,12 +747,115 @@ const contactPageData = {
     postalCode: "50000",
     streetAddress: "Duy Tan",
     avatar_image_path: "address_image.svg",
+    mail_to: "mailto:tanhunghue@gmail.com",
     location_map_link: "https://maps.app.goo.gl/LBctoRqsbj8aqn1X7",
   },
   phoneSection: {
     title: "",
     subtitle: "",
   },
+};
+
+// open source page
+
+const opensourcesHeader = {
+  title: "Open Sources & Publications",
+  description:
+    "I love to contribute to open source projects and have contributed to many projects on GitHub. I have also published articles on Dev.to, most of which are related to system design, cloud computing, and the latest technologies.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const opensourceProjects = {
+  "data": [
+    {
+      "id": "R_kgDOJWL0-g",
+      "name": "NextJS-Template",
+      "createdAt": "2023-04-01T04:18:19Z",
+      "url": "https://github.com/hulk-pham/NextJS-Template",
+      "description": "Next.js template with TypeScript, ESLint, Prettier, Jest, and Husky,... for quick start new project.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Javascript",
+          "iconifyClass": "skill-icons:javascript"
+        },
+        {
+          "name": "Typescript",
+          "iconifyClass": "skill-icons:typescript"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos:nextjs-icon"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJWL0-g2",
+      "name": "ReactJS-Template",
+      "createdAt": "2022-01-01T04:18:19Z",
+      "url": "https://github.com/hulk-pham/React-JS-Boiler-Template",
+      "description": "React.js 18 template built with Typescript, SASS, Storybook, Charka UI, Redux and Redux toolkit and more...",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Storybook",
+          "iconifyClass": "vscode-icons:file-type-storybook"
+        },
+        {
+          "name": "Typescript",
+          "iconifyClass": "skill-icons:typescript"
+        },
+        {
+          "name": "Redux",
+          "iconifyClass": "skill-icons:redux"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJWL0-g3",
+      "name": "Go-Microservices",
+      "createdAt": "2023-10-01T04:18:19Z",
+      "url": "https://github.com/hulk-pham/Go-Microservices",
+      "description": "Go microservices template with Gin, GORM, GraphQL, Redis, CQRS & Clean architecture, Kafka pubsub, Zinc (FTS) and more...",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Golang",
+          "iconifyClass": "skill-icons:golang"
+        },
+        {
+          "name": "Kafka",
+          "iconifyClass": "logos:kafka"
+        },
+        {
+          "name": "GraphQL",
+          "iconifyClass": "logos:graphql"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOJWL0-g4",
+      "name": "English-Extension-Chrome",
+      "createdAt": "2023-06-01T04:18:19Z",
+      "url": "https://github.com/hulk-pham/Open-Source-English-Extension",
+      "description": "Open Source English Extension is a powerful, user-friendly tool designed to enhance your language learning experience by helping you build and manage your vocabulary effortlessly",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Electron",
+          "iconifyClass": "skill-icons:electron"
+        },
+        {
+          "name": "Chrome Exentsion API",
+          "iconifyClass": "devicon:chrome-wordmark"
+        },
+        {
+          "name": "Typescript",
+          "iconifyClass": "skill-icons:typescript"
+        },
+      ]
+    },
+  ]
 };
 
 export {
@@ -776,4 +872,7 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  opensourcesHeader,
+  opensourceProjects
 };
+
