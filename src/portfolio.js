@@ -471,6 +471,15 @@ const certifications = {
       color_code: "#0C9D5899",
     },
     {
+      title: "Career Essentials in Cybersecurity",
+      subtitle: "- Microsoft",
+      logo_path: "ms-logo.png",
+      certificate_link:
+        "https://www.linkedin.com/learning/certificates/adf7d5d923803868499ae4f17b86e5f4f5093bb9c1add5cfa85f8fed567c3b5e",
+      alt_name: "Microsoft",
+      color_code: "white",
+    },
+    {
       title: "DevOps Professional Certificate",
       subtitle: "- PagerDuty",
       logo_path: "pagerduty_logo.png",
@@ -524,15 +533,15 @@ const certifications = {
       alt_name: "PMU",
       color_code: "white",
     },
-    {
-      title: "MongoDB for SQL Experts",
-      subtitle: "- MongoDB",
-      logo_path: "mongodb-logo.png",
-      certificate_link:
-        "https://learn.mongodb.com/c/7AuGc49SRJaxggMsO6Y-wQ",
-      alt_name: "MongoDB",
-      color_code: "white",
-    },
+    // {
+    //   title: "MongoDB for SQL Experts",
+    //   subtitle: "- MongoDB",
+    //   logo_path: "mongodb-logo.png",
+    //   certificate_link:
+    //     "https://learn.mongodb.com/c/7AuGc49SRJaxggMsO6Y-wQ",
+    //   alt_name: "MongoDB",
+    //   color_code: "white",
+    // },
     // {
     //   title: "Building Systems with the ChatGPT API",
     //   subtitle: "- Deeplearning.ai",
