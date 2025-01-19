@@ -23,8 +23,7 @@ const greeting = {
   title: "Hulk Pham",
   logo_name: "Hulk Pham",
   nickname: "",
-  subTitle:
-    "Senior Fullstack Developer, Cloud DevOps and AI/ML Engineer",
+  subTitle: "Senior Fullstack Developer, Cloud DevOps and AI/ML Engineer",
   resumeLink:
     "https://www.topcv.vn/xem-cv/WVAMVVsOVgtQVFEEVFZSXAwDVgMFVAcLDQoDVg82a5",
   portfolio_repository: "https://github.com/hulk-pham",
@@ -58,7 +57,8 @@ const socialMediaLinks = [
   },
   {
     name: "Upwork",
-    link: "https://www.upwork.com/freelancers/~013f88b8477fb9b7ec?mp_source=share",
+    link:
+      "https://www.upwork.com/freelancers/~013f88b8477fb9b7ec?mp_source=share",
     fontAwesomeIcon: "fa-brands fa-upwork", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#14a400", // Reference https://simpleicons.org/?q=x
   },
@@ -446,7 +446,7 @@ const degrees = {
         `⚡ My subject is Software Engineering, so I have done projects on Web Development, Mobile Development`,
       ],
       website_link: "https://husc.edu.vn/",
-    }
+    },
   ],
 };
 
@@ -647,7 +647,8 @@ const experience = {
           logo_path: "stdio_logo.png",
           duration: "January 2019 - April 2020",
           location: "Hue, Vietnam",
-          description: "I provide comprehensive training in JavaScript and React.js for students at Hue University of Science, with a strong emphasis on modern development practices. The training covers key topics such as Redux for state management, advanced JavaScript concepts, and ES6 features like arrow functions, destructuring, and modules. My goal is to equip students with the skills needed to build dynamic, scalable web applications using React.js, while also ensuring they have a solid understanding of JavaScript fundamentals and industry best practices. Through hands-on coding sessions, projects, and problem-solving exercises, students are prepared for real-world development challenges.",
+          description:
+            "I provide comprehensive training in JavaScript and React.js for students at Hue University of Science, with a strong emphasis on modern development practices. The training covers key topics such as Redux for state management, advanced JavaScript concepts, and ES6 features like arrow functions, destructuring, and modules. My goal is to equip students with the skills needed to build dynamic, scalable web applications using React.js, while also ensuring they have a solid understanding of JavaScript fundamentals and industry best practices. Through hands-on coding sessions, projects, and problem-solving exercises, students are prepared for real-world development challenges.",
           color: "#4285F4",
         },
         // {
@@ -717,18 +718,60 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
+      id: "aws-cloud-essential",
+      name: "AWS Cloud Essential Series",
+      createdAt: "2024-10-31T00:00:00Z",
+      description:
+        "A comprehensive guide on AWS essentials covering fundamental building blocks of Amazon Web Services (AWS). Topics include basic concepts, IAM, computing, networking, storage, database, and monitoring.",
+      url: "https://dev.to/hulk-pham/aws-cloud-essential-series-1ggm",
+      tags: ["AWS", "Cloud", "DevOps", "Infrastructure"],
+    },
+    {
+      id: "aws-compute-part5",
+      name: "AWS Compute - Part 5: How to choose compute service",
+      createdAt: "2024-11-15T00:00:00Z",
+      description:
+        "A guide to help you choose the right AWS compute service for your needs, comparing EC2, Lambda, and other compute options.",
+      url:
+        "https://dev.to/hulk-pham/aws-compute-part-5-how-to-choose-compute-service",
+      tags: ["AWS", "Cloud", "EC2", "Lambda"],
+    },
+    {
+      id: "aws-compute-part4",
+      name: "AWS Compute - Part 4: Load Balancer and Autoscaling",
+      createdAt: "2024-11-10T00:00:00Z",
+      description:
+        "Deep dive into AWS Load Balancing and Auto Scaling capabilities for building scalable applications.",
+      url:
+        "https://dev.to/hulk-pham/aws-compute-part-4-load-balancer-and-autoscaling",
+      tags: ["AWS", "Cloud", "LoadBalancer", "AutoScaling"],
+    },
+    {
+      id: "aws-monitoring-part1",
+      name: "AWS Monitoring - Part 1: AWS CloudWatch",
+      createdAt: "2024-11-05T00:00:00Z",
+      description:
+        "Learn how to monitor your AWS resources effectively using CloudWatch services.",
+      url: "https://dev.to/hulk-pham/aws-monitoring-part-1-aws-cloudwatch",
+      tags: ["AWS", "Cloud", "CloudWatch", "Monitoring"],
+    },
+    {
       id: "database-sharding",
       name: "Database sharding",
       createdAt: "2024-10-10T00:00:00Z",
-      description: "Database sharding is a method of splitting and storing a single logical dataset in multiple databases. Each shard is a horizontal partition of data in a database or search engine.",
+      description:
+        "Database sharding is a method of splitting and storing a single logical dataset in multiple databases. Each shard is a horizontal partition of data in a database or search engine.",
       url: "https://dev.to/hulk-pham/database-sharding-1382",
+      tags: ["Database", "Architecture", "Performance"],
     },
     {
       id: "mysql-optimize-tips",
       name: "MySQL Optimize Tips",
       createdAt: "2024-10-14T00:00:00Z",
-      description: "MySQL is one of the most popular relational database management systems. It is widely used in web applications and is an important part of the LAMP stack.",
+      description:
+        "MySQL is one of the most popular relational database management systems. It is widely used in web applications and is an important part of the LAMP stack.",
       url: "https://dev.to/hulk-pham/mysql-optimize-tips-4oic",
+      tags: ["Database", "MySQL", "Performance"],
     },
   ],
 };
@@ -738,7 +781,8 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "dev-image.png",
-    description: "Connect with me on LinkedIn, Twitter, GitHub and Gmail. I am always available for interesting conversations and new opportunities.",
+    description:
+      "Connect with me on LinkedIn, Twitter, GitHub and Gmail. I am always available for interesting conversations and new opportunities.",
   },
   blogSection: {
     title: "Blogs",
@@ -775,96 +819,143 @@ const opensourcesHeader = {
 };
 
 const opensourceProjects = {
-  "data": [
+  data: [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "NextJS-Template",
-      "createdAt": "2023-04-01T04:18:19Z",
-      "url": "https://github.com/hulk-pham/NextJS-Template",
-      "description": "Next.js template with TypeScript, ESLint, Prettier, Jest, and Husky,... for quick start new project.",
-      "isFork": false,
-      "languages": [
+      id: "R_kgDOJWL0-g",
+      name: "NextJS-Template",
+      createdAt: "2023-04-01T04:18:19Z",
+      url: "https://github.com/hulk-pham/NextJS-Template",
+      description:
+        "Next.js template with TypeScript, ESLint, Prettier, Jest, and Husky,... for quick start new project.",
+      isFork: false,
+      languages: [
         {
-          "name": "Javascript",
-          "iconifyClass": "skill-icons:javascript"
+          name: "Javascript",
+          iconifyClass: "skill-icons:javascript",
         },
         {
-          "name": "Typescript",
-          "iconifyClass": "skill-icons:typescript"
+          name: "Typescript",
+          iconifyClass: "skill-icons:typescript",
         },
         {
-          "name": "Next.js",
-          "iconifyClass": "logos:nextjs-icon"
-        }
-      ]
+          name: "Next.js",
+          iconifyClass: "logos:nextjs-icon",
+        },
+      ],
     },
     {
-      "id": "R_kgDOJWL0-g2",
-      "name": "ReactJS-Template",
-      "createdAt": "2022-01-01T04:18:19Z",
-      "url": "https://github.com/hulk-pham/React-JS-Boiler-Template",
-      "description": "React.js 18 template built with Typescript, SASS, Storybook, Charka UI, Redux and Redux toolkit and more...",
-      "isFork": false,
-      "languages": [
+      id: "R_kgDOJWL0-g2",
+      name: "ReactJS-Template",
+      createdAt: "2022-01-01T04:18:19Z",
+      url: "https://github.com/hulk-pham/React-JS-Boiler-Template",
+      description:
+        "React.js 18 template built with Typescript, SASS, Storybook, Charka UI, Redux and Redux toolkit and more...",
+      isFork: false,
+      languages: [
         {
-          "name": "Storybook",
-          "iconifyClass": "vscode-icons:file-type-storybook"
+          name: "Storybook",
+          iconifyClass: "vscode-icons:file-type-storybook",
         },
         {
-          "name": "Typescript",
-          "iconifyClass": "skill-icons:typescript"
+          name: "Typescript",
+          iconifyClass: "skill-icons:typescript",
         },
         {
-          "name": "Redux",
-          "iconifyClass": "skill-icons:redux"
-        }
-      ]
+          name: "Redux",
+          iconifyClass: "skill-icons:redux",
+        },
+      ],
     },
     {
-      "id": "R_kgDOJWL0-g3",
-      "name": "Go-Microservices",
-      "createdAt": "2023-10-01T04:18:19Z",
-      "url": "https://github.com/hulk-pham/Go-Microservices",
-      "description": "Go microservices template with Gin, GORM, GraphQL, Redis, CQRS & Clean architecture, Kafka pubsub, Zinc (FTS) and more...",
-      "isFork": false,
-      "languages": [
+      id: "R_kgDOJWL0-g3",
+      name: "Go-Microservices",
+      createdAt: "2023-10-01T04:18:19Z",
+      url: "https://github.com/hulk-pham/Go-Microservices",
+      description:
+        "Go microservices template with Gin, GORM, GraphQL, Redis, CQRS & Clean architecture, Kafka pubsub, Zinc (FTS) and more...",
+      isFork: false,
+      languages: [
         {
-          "name": "Golang",
-          "iconifyClass": "skill-icons:golang"
+          name: "Golang",
+          iconifyClass: "skill-icons:golang",
         },
         {
-          "name": "Kafka",
-          "iconifyClass": "logos:kafka"
+          name: "Kafka",
+          iconifyClass: "logos:kafka",
         },
         {
-          "name": "GraphQL",
-          "iconifyClass": "logos:graphql"
-        }
-      ]
+          name: "GraphQL",
+          iconifyClass: "logos:graphql",
+        },
+      ],
     },
     {
-      "id": "R_kgDOJWL0-g4",
-      "name": "English-Extension-Chrome",
-      "createdAt": "2023-06-01T04:18:19Z",
-      "url": "https://github.com/hulk-pham/Open-Source-English-Extension",
-      "description": "Open Source English Extension is a powerful, user-friendly tool designed to enhance your language learning experience by helping you build and manage your vocabulary effortlessly",
-      "isFork": false,
-      "languages": [
+      id: "R_kgDOJWL0-g4",
+      name: "English-Extension-Chrome",
+      createdAt: "2023-06-01T04:18:19Z",
+      url: "https://github.com/hulk-pham/Open-Source-English-Extension",
+      description:
+        "Open Source English Extension is a powerful, user-friendly tool designed to enhance your language learning experience by helping you build and manage your vocabulary effortlessly",
+      isFork: false,
+      languages: [
         {
-          "name": "Electron",
-          "iconifyClass": "skill-icons:electron"
+          name: "Electron",
+          iconifyClass: "skill-icons:electron",
         },
         {
-          "name": "Chrome Exentsion API",
-          "iconifyClass": "devicon:chrome-wordmark"
+          name: "Chrome Exentsion API",
+          iconifyClass: "devicon:chrome-wordmark",
         },
         {
-          "name": "Typescript",
-          "iconifyClass": "skill-icons:typescript"
+          name: "Typescript",
+          iconifyClass: "skill-icons:typescript",
         },
-      ]
+      ],
     },
-  ]
+  ],
+};
+
+const blogData = {
+  data: [
+    {
+      id: "aws-cloud-essential",
+      title: "AWS Cloud Essential Series",
+      createdAt: "2024-10-31T00:00:00Z",
+      description:
+        "A comprehensive guide on AWS essentials covering fundamental building blocks of Amazon Web Services (AWS). Topics include basic concepts, IAM, computing, networking, storage, database, and monitoring.",
+      url: "https://dev.to/hulk-pham/aws-cloud-essential-series-1ggm",
+      tags: ["AWS", "Cloud", "DevOps", "Infrastructure"],
+    },
+    {
+      id: "aws-compute-part5",
+      title: "AWS Compute - Part 5: How to choose compute service",
+      createdAt: "2024-11-15T00:00:00Z",
+      description:
+        "A guide to help you choose the right AWS compute service for your needs, comparing EC2, Lambda, and other compute options.",
+      url:
+        "https://dev.to/hulk-pham/aws-compute-part-5-how-to-choose-compute-service",
+      tags: ["AWS", "Cloud", "EC2", "Lambda"],
+    },
+    {
+      id: "aws-compute-part4",
+      title: "AWS Compute - Part 4: Load Balancer and Autoscaling",
+      createdAt: "2024-11-10T00:00:00Z",
+      description:
+        "Deep dive into AWS Load Balancing and Auto Scaling capabilities for building scalable applications.",
+      url:
+        "https://dev.to/hulk-pham/aws-compute-part-4-load-balancer-and-autoscaling",
+      tags: ["AWS", "Cloud", "LoadBalancer", "AutoScaling"],
+    },
+    {
+      id: "aws-monitoring-part1",
+      title: "AWS Monitoring - Part 1: AWS CloudWatch",
+      createdAt: "2024-11-05T00:00:00Z",
+      description:
+        "Learn how to monitor your AWS resources effectively using CloudWatch services.",
+      url: "https://dev.to/hulk-pham/aws-monitoring-part-1-aws-cloudwatch",
+      tags: ["AWS", "Cloud", "CloudWatch", "Monitoring"],
+    },
+  ],
 };
 
 export {
@@ -882,6 +973,6 @@ export {
   publications,
   contactPageData,
   opensourcesHeader,
-  opensourceProjects
+  opensourceProjects,
+  blogData,
 };
-

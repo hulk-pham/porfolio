@@ -1,0 +1,131 @@
+{
+  "rules": [
+    {
+      "pattern": "src/components/**/*.{js,jsx,ts,tsx}",
+      "group": "Components",
+      "description": "React components for reusable UI elements"
+    },
+    {
+      "pattern": "src/containers/**/*.{js,jsx,ts,tsx}", 
+      "group": "Containers",
+      "description": "Container components that manage state and data flow"
+    },
+    {
+      "pattern": "src/pages/**/*.{js,jsx,ts,tsx}",
+      "group": "Pages",
+      "description": "Page-level components representing different routes"
+    },
+    {
+      "pattern": "src/**/*.css",
+      "group": "Styles",
+      "description": "CSS styles for components and pages"
+    },
+    {
+      "pattern": "src/theme.js",
+      "group": "Theme",
+      "description": "Theme configuration and color schemes"
+    },
+    {
+      "pattern": "src/portfolio.js",
+      "group": "Config",
+      "description": "Portfolio content and configuration"
+    },
+    {
+      "pattern": "src/global.js",
+      "group": "Config",
+      "description": "Global styles and configuration"
+    },
+    {
+      "pattern": "public/**/*",
+      "group": "Public",
+      "description": "Static assets and public files"
+    },
+    {
+      "pattern": "*.json",
+      "group": "Config",
+      "description": "JSON configuration files"
+    },
+    {
+      "pattern": "src/assets/**/*",
+      "group": "Assets",
+      "description": "Images, fonts and other static assets"
+    },
+    {
+      "pattern": "{package.json,src/index.js,README.md}",
+      "group": "ProjectSetup",
+      "description": {
+        "overview": "Personal portfolio website built with React 16",
+        "techStack": {
+          "frontend": [
+            "React 16.10.2",
+            "React Router 5.1.2",
+            "BaseUI Components",
+            "Styled Components 5.1.1",
+            "Chart.js 2.9.3"
+          ],
+          "styling": [
+            "CSS Modules",
+            "Styletron for atomic CSS",
+            "Google Fonts"
+          ],
+          "state": [
+            "React Hooks",
+            "Component-level state"
+          ],
+          "build": [
+            "React Scripts 3.2.0",
+            "gh-pages for deployment"
+          ],
+          "quality": [
+            "Prettier",
+            "ESLint",
+            "Husky pre-commit hooks",
+            "lint-staged"
+          ]
+        },
+        "guidelines": {
+          "structure": [
+            "components/ - Reusable UI components",
+            "containers/ - Stateful container components",
+            "pages/ - Route-level components",
+            "assets/ - Static files like images and fonts",
+            "theme.js - Theme configuration",
+            "portfolio.js - Content configuration"
+          ],
+          "styling": [
+            "Use CSS modules for component styles",
+            "Follow BEM naming convention",
+            "Theme colors from theme.js",
+            "Mobile-first responsive design"
+          ],
+          "development": [
+            "Run 'npm start' for development",
+            "Run 'npm run build' for production",
+            "Run 'npm run deploy' to deploy to GitHub Pages",
+            "Commits are linted via Husky pre-commit hooks"
+          ]
+        }
+      }
+    },
+    {
+      "pattern": "src/content/blogs/**/*.{md,mdx}",
+      "group": "Blogs",
+      "description": "Blog content in markdown format"
+    },
+    {
+      "pattern": "src/pages/blog/**/*.{js,jsx,ts,tsx}",
+      "group": "BlogPages",
+      "description": "Blog pages and components"
+    },
+    {
+        "guideline": [
+            "Main.js is the entry point for the application",
+            "App.js is the main component that wraps the application",
+            "App.css is the main stylesheet for the application",
+            "Blog.js is the main component for the blog page",
+            "Blog.css is the main stylesheet for the blog page",
+            "each page should have Header, Footer and TopButton components"
+        ]
+    }
+  ]
+} 
