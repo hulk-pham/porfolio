@@ -108,11 +108,6 @@
       }
     },
     {
-      "pattern": "src/content/blogs/**/*.{md,mdx}",
-      "group": "Blogs",
-      "description": "Blog content in markdown format"
-    },
-    {
       "pattern": "src/pages/blog/**/*.{js,jsx,ts,tsx}",
       "group": "BlogPages",
       "description": "Blog pages and components"
@@ -124,7 +119,7 @@
             "App.css is the main stylesheet for the application",
             "Blog.js is the main component for the blog page",
             "Blog.css is the main stylesheet for the blog page",
-            "each page should have Header, Footer and TopButton components"
+            "Each page should have Header, Footer and TopButton components"
         ]
     }
   ]
